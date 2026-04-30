@@ -30,9 +30,10 @@ st.markdown("""
         background: #fff3cd; border-left: 5px solid #ffc107;
         padding: 12px 18px; border-radius: 6px; font-size: 1.1em;
     }
-    .info-callout {
+   .info-callout {
         background: #e8f4f8; border-left: 4px solid #17a2b8;
         padding: 10px 14px; border-radius: 4px; font-size: 0.9em;
+        color: black;
     }
     .metric-box {
         background: #f0f4ff; border-left: 4px solid #4a6fa5;
