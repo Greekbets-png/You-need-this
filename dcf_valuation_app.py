@@ -13,8 +13,6 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    div[data-testid="stMarkdownContainer"] * {
-        color: black !important;
     .formula-box {
         background: #f8f9fa; border: 1px solid #dee2e6;
         border-radius: 6px; padding: 14px;
