@@ -42,6 +42,7 @@ st.markdown("""
     .metric-box {
         background: #f0f4ff; border-left: 4px solid #4a6fa5;
         padding: 12px 16px; border-radius: 6px; margin: 6px 0;
+        color: black;
     }
 </style>
 """, unsafe_allow_html=True)
