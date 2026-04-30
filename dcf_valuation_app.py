@@ -21,14 +21,17 @@ st.markdown("""
     .verdict-undervalued {
         background: #d4edda; border-left: 5px solid #28a745;
         padding: 12px 18px; border-radius: 6px; font-size: 1.1em;
+        color: black;
     }
     .verdict-overvalued {
         background: #f8d7da; border-left: 5px solid #dc3545;
         padding: 12px 18px; border-radius: 6px; font-size: 1.1em;
+        color: black;
     }
     .verdict-fair {
         background: #fff3cd; border-left: 5px solid #ffc107;
         padding: 12px 18px; border-radius: 6px; font-size: 1.1em;
+        color: black;
     }
    .info-callout {
         background: #e8f4f8; border-left: 4px solid #17a2b8;
