@@ -101,7 +101,7 @@ def compute_historical_fcf_growth(cf) -> dict:
             ocf   = safe_get(cf, "Operating Cash Flow", i)
             capex = safe_get(cf, "Capital Expenditure", i)
             if ocf is not None and capex is not None:
-                fcfs.append((ocf + capex) / 1e6)   # $M, most-recent first
+                fcfs.append((ocf - abs(capex)) / 1e6)   # $M, most-recent first
                 yrs.append(cf.columns[i].year)
     except Exception:
         pass
@@ -244,7 +244,7 @@ try:
         if ocf is not None and capex is not None:
             op_cf_vals.append(ocf / 1e6)
             capex_vals.append(capex / 1e6)
-            fcf_vals.append((ocf + capex) / 1e6)
+            fcf_vals.append((ocf - abs(capex)) / 1e6)
             years.append(cf.columns[i].year)
 except Exception:
     pass
