@@ -225,7 +225,7 @@ c4.metric("Trailing P/E",   f"{pe_ratio:.1f}x" if pe_ratio else "N/A")
 c5, c6, c7, c8 = st.columns(4)
 c5.metric("Forward P/E",    f"{fwd_pe:.1f}x"    if fwd_pe    else "N/A")
 c6.metric("EV/EBITDA",      f"{ev_ebitda:.1f}x" if ev_ebitda else "N/A")
-c7.metric("Dividend Yield", f"{div_yield*100:.2f}%")
+c7.metric("Dividend Yield", f"{div_yield:.2f}%")
 c8.metric("Shares Out",     fmt(shares_out).replace("$", ""))
 
 if description:
