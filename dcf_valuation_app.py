@@ -487,7 +487,7 @@ def color_cell(val):
     return "background-color:#fff3cd;color:black"
 
 st.markdown("**Columns = WACC · Rows = Terminal Growth**")
-st.dataframe(sens_df.style.applymap(color_cell).format("${:.2f}", na_rep="—"),
+st.dataframe(sens_df.style.map(color_cell).format("${:.2f}", na_rep="—"),
              use_container_width=True)
 st.divider()
 
