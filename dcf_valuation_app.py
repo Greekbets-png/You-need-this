@@ -17,6 +17,7 @@ st.markdown("""
         background: #f8f9fa; border: 1px solid #dee2e6;
         border-radius: 6px; padding: 14px;
         font-family: monospace; font-size: 0.9em; margin: 8px 0;
+        color: black;
     }
     .verdict-undervalued {
         background: #d4edda; border-left: 5px solid #28a745;
